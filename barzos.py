@@ -18,38 +18,45 @@ OKRUH = "15"
 
 # Vsetky hladane slova - variacie, typy veci, slova oznacujuce darovanie
 SEARCH_WORDS = [
-    # iPhone - všetky variacie
-    "iphone", "iphon", "iphone", "i phone", "ajfon",
-    "iphone 11", "iphone 12", "iphone 13", "iphone 14", "iphone 15", "iphone 16",
+    # iPhone
+    "iphone", "iphon", "ajfon",
 
     # iPad
-    "ipad", "i pad", "aipod", "iped",
+    "ipad", "iped",
 
     # MacBook
-    "macbook", "mac book", "makbok", "macbok", "laptop apple",
+    "macbook", "macbok",
 
     # Apple Watch
-    "apple watch", "applewatch", "hodinky apple",
+    "apple watch",
 
     # AirPods
-    "airpods", "air pods", "airpod", "sluchadla apple",
+    "airpods", "airpod",
 
     # Ostatné Apple
     "imac", "mac mini", "apple tv", "homepod",
 
-    # Bicykle - všetky variacie
-    "bicykel", "bicyk", "bycikel", "bicikl", "bicikle",
-    "byciklo", "bicyke", "bickel", "bicykl",
-    "bike", "mtb", "bmx",
-    "horsky bicykel", "horský bicykel",
-    "cestny bicykel", "cestný bicykel",
-    "detsky bicykel", "detský bicykel",
-    "damsky bicykel", "dámsky bicykel",
-    "pansky bicykel", "pánsky bicykel",
-    "ebike", "e-bike", "elektricky bicykel", "elektrický bicykel",
-    "trek", "specialized", "giant bicykel",
-]
+    # Bicykle
+    "bicykel", "bycikel", "bicikl", "bickel",
+    "bike", "mtb", "bmx", "ebike", "e-bike",
+    "trek", "specialized",
 
+    # Kolobežky
+    "kolobezka", "kolobežka", "scooter",
+    "elektricka kolobezka", "elektrická kolobežka",
+    "e-kolobezka", "e-kolobežka",
+
+    # IKEA
+    "ikea",
+
+    # Detské veci
+    "prebalovaci stol", "prebaľovací stôl",
+    "detska postielka", "detská postieľka",
+    "autosedacka", "autosedačka",
+    "kocarik", "kočiarik",
+    "hojdacka", "hojdačka",
+    "detska stolička", "detska stolicka",
+]
 def load_seen():
     if os.path.exists(SEEN_FILE):
         with open(SEEN_FILE, "r") as f:
