@@ -72,7 +72,10 @@ SEARCH_WORDS = [
     "autosedacka", "autosedačka",
     "kocarik", "kočiarik",
     "hojdacka", "hojdačka",
-    "detska stolička", "detska stolicka",
+    "detska stolička", "detska stolicka", 
+    
+    # lubovolne
+    "telefon","mobil", "telefón",
 ]
 
 
