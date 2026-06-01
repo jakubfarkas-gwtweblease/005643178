@@ -75,7 +75,7 @@ SEARCH_WORDS = [
     "detska stolička", "detska stolicka", 
     
     # lubovolne
-    "telefon","mobil", "telefón",
+    "blackberry","nokia 3310", "tlacidlovy", "tlačidlový", "tlačidlovy", "tlacidlový",
 ]
 
 
