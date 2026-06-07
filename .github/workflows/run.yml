@@ -1,8 +1,6 @@
 name: Bazos Scanner
 
 on:
-  schedule:
-    - cron: '*/20 * * * *'   # každých 20 minút
   workflow_dispatch:           # manuálne spustenie tlačidlom
 
 jobs:
