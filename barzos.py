@@ -76,6 +76,25 @@ SEARCH_WORDS = [
     
     # lubovolne
     "blackberry","nokia 3310", "tlacidlovy", "tlačidlový", "tlačidlovy", "tlacidlový",
+
+    # Oblecenie a bundy
+    'oblečenie',
+    'oblecenie',
+    'damske',
+    'damska',
+    'damsky',
+    'zenske',
+    'zenska',
+    'bunda',
+    'bundy',
+    'bundu',
+    'bundicka',
+    'kabat',
+    'vetrovk',
+    'vesta',
+    'vesty',
+    'kozuch',
+    'oblecnie',
 ]
 
 
