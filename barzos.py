@@ -95,6 +95,23 @@ SEARCH_WORDS = [
     'vesty',
     'kozuch',
     'oblecnie',
+    # Nove hladane slova
+    "mickey",
+    "micky",
+    "ducktales",
+    "disney",
+    "egmont",
+    "simpson",
+    "komiks",
+    "gigant",
+    "boby",
+    "sanky",
+    "sane",
+    "stromcek",
+    "strom",
+    "lego",
+    "stavebnica",
+    "kacer donald",
 ]
 
 
